@@ -1,3 +1,8 @@
+
+//setTimeout(function(){document.querySelector("#wrap").style.display='none';},1500);
+
+window.addEventListener('load',function(e){document.querySelector("#wrap").style.display='none';});
+
 var slideshowCounter = 0;
 var slides = ["./filess/img1.jpg","./filess/img2.jpg","./filess/img3.jpg","./filess/img4.jpg","./filess/img5.jpg"]
 const slide = document.querySelector('#slideshowimg');
@@ -26,4 +31,3 @@ function slideshow()
     setTimeout(slideshow,5000);
 }
 
-document.querySelector(".scrll").scrollTop=1;
