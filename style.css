@@ -262,7 +262,7 @@ body {
   padding: 0%;
   margin: 0px;
   margin-left:190px;
-  display: inline-block;
+  display: flex;
 }
 .last-col > div
 {
@@ -312,4 +312,76 @@ body {
   overflow: hidden;
   margin-top: 34px;
   height: 250px;
+}
+
+.load
+{
+  display: block;
+  opacity: 1;
+  z-index: 0;
+  overflow: visible;
+  width: 1000px;
+  height: 1000px;
+  text-align: center;
+  background-image: linear-gradient(rgb(91, 5, 94),rgb(68, 24, 24));
+  background-color: black;
+}
+
+.notification{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.notify{
+  width: 350px;
+  height: 420px;
+  text-align: center;
+  border-radius: 30px;
+  transition: 0.5s; 
+  border-bottom:solid black 2px;
+  
+}
+
+.notify-body li:hover{
+  box-shadow: 10px 10px 15px black;
+  transform: scale(1.1);
+  
+}
+
+
+.notify-body ul{
+  list-style: none;
+}
+.notify-body a{
+  text-decoration: none;
+  color: black;
+}
+.notify-body ul li{
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+}
+
+
+
+
+.notify-head{
+  width: 347px;
+  height: 80px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-image:linear-gradient(black,gray,lightgray,white,gray,black);
+  font-size: 20px;
+}
+.notify-head h1{
+  color: black;
+  transform: translateY(50%);
+}
+
+.notify marquee{
+  width: 350px;
+  height: 300px;
+  border-radius: 30px;
+  margin-left: -50px; 
 }
