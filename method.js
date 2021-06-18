@@ -31,3 +31,17 @@ function slideshow()
     setTimeout(slideshow,5000);
 }
 
+document.getElementById('showcon').addEventListener('click',showtt());
+
+function showtt()
+{
+    console.log('Hello');
+    let x=document.getElementById('tab');
+    if(x.style.display!='none')
+    {
+        x.style.display='none';
+    }
+    else {
+        x.style.display='block';
+    }
+}

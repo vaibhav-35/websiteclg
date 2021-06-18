@@ -456,3 +456,81 @@ body {
     top: 0;
   }
 }
+.btn {
+  font-family: 'Baloo Bhai', cursive;
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(31, 30, 30);
+}
+
+.new {
+  border: 2px solid white;
+  margin: 106px auto;
+  padding: 75px;
+  width: 40%;
+  border-radius: 28px;
+  background: url('Capture7.jfif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+
+.form-group input {
+  font-family: 'Baloo Bhai', cursive;
+  text-align: center;
+  display: block;
+  width: 420px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+.new h1 {
+  text-align: center;
+  color: white;
+}
+
+.new button {
+  display: block;
+  width: 74%;
+  margin: 20px auto;
+}
+
+#tab
+{
+  display: none;
+}
+#showcon
+{
+  background-color: aquamarine;
+  color:black;
+  font-weight: bolder;
+  height: 30px;
+  justify-content: center;
+  width:max-content;
+  font-size: 30px;
+   text-align: center;
+   border-radius: 5px;
+   padding: 1rem;
+   padding-bottom: 2rem;
+   text-decoration: underline;
+}
+
+#showcon:hover
+{
+  transform: scale(1.1);
+  text-transform: capitalize;
+}
